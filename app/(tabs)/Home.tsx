@@ -4,7 +4,7 @@ import React, { useState, useRef } from 'react';
 import { View, Text, ScrollView, Dimensions, Image, ImageSourcePropType } from 'react-native';
 import Carousel from 'react-native-reanimated-carousel';
 
-const Index = () => {
+const Home = () => {
   const width = Dimensions.get('window').width;
   const carouselRef = useRef(null);
 
@@ -67,9 +67,7 @@ const Index = () => {
         </Text>
         {/* <Header/> */}
       </View>
-<Link href='./loader'>
-<Text className='text-black'>Loader</Text>
-</Link>
+
       {/* Main Content */}
       <View className="mt-4">
         {/* Plantation Card */}
@@ -104,4 +102,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Home;
