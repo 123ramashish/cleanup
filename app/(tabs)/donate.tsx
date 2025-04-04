@@ -1,9 +1,9 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function HomePage() {
+export default function DonationPage() {
   return (
     <View className='flex-1 items-center justify-center'>
-      <Text >Home Page</Text>
+      <Text >Donation Page</Text>
     </View>
   );
 }

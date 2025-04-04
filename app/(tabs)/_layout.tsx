@@ -12,6 +12,20 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
+        name="features"
+        options={{
+          title: 'Features',
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="star" color={color} />,
+        }}
+      />
+      <Tabs.Screen
+        name="donate"
+        options={{
+          title: 'Donate',
+          tabBarIcon: ({ color }) => <FontAwesome size={28} name="gift" color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="settings"
         options={{
           title: 'Settings',
